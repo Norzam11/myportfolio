@@ -2480,13 +2480,13 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #1a252f;
-  border-color: #1a252f;
+  background-color: #2645f5;
+  border-color: #2645f5;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color:  #151550;
-  border-color: #151550;
+  background-color:  #0926ca;
+  border-color: #0926ca;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
@@ -5417,7 +5417,7 @@ a.close.disabled {
 .modal {
   position: fixed;
   top: 0;
-  left: 150px;
+  left: 0;
   z-index: 1050;
   display: none;
   width: 100%;
@@ -5493,9 +5493,9 @@ a.close.disabled {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 900px;
+  width: 100%;
   pointer-events: auto;
-  background-color: #2645f5;
+  background-color: #fff;
   background-clip: padding-box;
   border: 0 solid rgba(0, 0, 0, 0.2);
   border-radius: 0.75rem;
@@ -6120,8 +6120,6 @@ a.close.disabled {
   background-image: url("../assets/img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  
 }
 
 .bg-primary {
@@ -7660,7 +7658,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .ml-5,
@@ -10177,6 +10175,7 @@ h3 {
 }
 .about-avatar {
   width: 15rem;
+  margin-left: 40px;
 }
 
 @media (min-width: 992px) {
@@ -10232,7 +10231,7 @@ h3 {
   top: 1rem;
   font-size: 1.5rem;
   line-height: 1rem;
-  color: #fff;
+  color: #2645f5;
   opacity: 1;
 }
 
